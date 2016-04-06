@@ -15,13 +15,17 @@ def divide(num1, num2):
     return float(num1)/num2
 
 def square(num1):
+    """ squares one number"""
     return num1 * num1
 
 def cube(num1):
+    """cubes one number"""
     return num1 * num1 * num1
 
 def power(num1, num2):
+    """raises one number to the power of another number"""
     return num1 ** num2
 
 def mod(num1, num2):
+    """divide one number by the other and return the remainder"""
     return num1 % num2
